@@ -4,7 +4,7 @@ This is a modified casper theme for personal use. Sharing so others can use if n
 # Live Editing
 This method worked for me as I just need to refresh the page to see changes.
 
-## Step 1: Local Install Ghost
+## Step 1: Locally Install Ghost
 
 Install ghost locally using Ghost Cli
 
