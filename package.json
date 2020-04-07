@@ -88,5 +88,8 @@
                 "width": 2000
             }
         }
+    },
+    "dependencies": {
+        "minimist": "^0.2.1"
     }
 }
