@@ -1,5 +1,5 @@
 {
-    "name": "casper mod",
+    "name": "casper_mod",
     "description": "A modified clean, minimal default theme for the Ghost publishing platform",
     "demo": "https://demo.ghost.io",
     "version": "1.1.00",
@@ -23,7 +23,7 @@
         "postship": "git fetch && gulp release"
     },
     "author": {
-        "name": "Varun | Ghost Foundation",
+        "name": "Varun D",
         "email": "varun@thisnameless.com",
         "url": "https://blog.thisnameless.com"
     },

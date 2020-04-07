@@ -174,12 +174,12 @@ body {
 
 .site-description {
     z-index: 10;
-    margin: 0;
+    margin: 1em 0;
     padding: 5px 0;
-    font-size: 2.1rem;
-    line-height: 1.4em;
-    font-weight: 400;
-    opacity: 0.8;
+    font-size: 2rem;
+    line-height: 1.6em;
+    font-weight: 100;
+    /*opacity: 0.8;*/
 }
 
 /* 4.1 Home header
@@ -329,7 +329,7 @@ body {
     margin-right: 10px;
     padding: 10px 0 80px;
     font-weight: 500;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.6px;
     text-transform: uppercase;
     white-space: nowrap;
 
@@ -419,7 +419,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     bottom: 8px;
     left: 12px;
     height: 1px;
-    background: #fff;
+    background: var(--blue);
     opacity: 0.25;
     transition: all 0.35s ease-in-out;
 }
@@ -439,13 +439,14 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     visibility: hidden;
     position: absolute;
     top: 9px;
-    color: #fff;
+    color: var(--lightgrey);
     font-size: 1.7rem;
-    font-weight: 400;
+    font-weight: 100;
     text-transform: none;
     opacity: 0;
     transition: all 1.0s cubic-bezier(0.19, 1, 0.22, 1);
     transform: translateY(175%);
+    letter-spacing: .05em;
 }
 
 .nav-post-title.dash {
@@ -666,7 +667,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-primary-tag {
-    margin: 0 0 0.4em;
+    margin: 0 0 0.2em;
     color: var(--blue);
     font-size: 1rem;
     font-weight: 100;
@@ -948,10 +949,10 @@ make sure this only happens on large viewports / desktop-ish devices.
     justify-content: flex-start;
     align-items: center;
     color: var(--midgrey);
-    font-size: 1.3rem;
-    line-height: 1.4em;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 100;
     text-transform: uppercase;
+    letter-spacing: .2em;
 }
 
 .post-full-meta-date {
@@ -1171,7 +1172,7 @@ Usage (In Ghost editor):
 .post-full-content blockquote {
     margin: 0 0 1.5em;
     padding: 0 1.5em;
-    border-left: #3eb0ef 3px solid;
+    border-left: var(--quote) 3px solid;
 }
 @media (max-width: 500px) {
     .post-full-content blockquote {
@@ -1196,7 +1197,7 @@ Usage (In Ghost editor):
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 400!important;
-    background: var(--whitegrey);
+    background: var(--consolebg);
     border-radius: 3px;
 }
 
@@ -2008,8 +2009,8 @@ Usage (In Ghost editor):
 .read-next-card-meta {
     margin-top: 2px;
     font-size: 1.2rem;
-    line-height: 1.4em;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .read-next-card-meta p {
@@ -2032,8 +2033,8 @@ Usage (In Ghost editor):
 }
 
 .read-next-card-footer a:hover {
-    border-color: var(--yellow);
-    color: var(--yellow);
+    border-color: var(--blue);
+    color: var(--blue);
     text-decoration: none;
 }
 
@@ -2780,7 +2781,7 @@ Usage (In Ghost editor):
 
 .subscribe-overlay button:active,
 .subscribe-overlay button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: color(var(--blue));
 }
 
 .subscribe-overlay .loading .button-loader {
@@ -2982,8 +2983,8 @@ Usage (In Ghost editor):
     }
 
     .post-full-content code {
-        color: #fff;
-        background: #000;
+        color: var(--consoletxt);
+        background: var(--consolebg);
     }
 
     hr {

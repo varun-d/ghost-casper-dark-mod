@@ -2,19 +2,18 @@
 /* ---------------------------------------------------------- */
 
 :root {
-    /* Colours */
-    --blue: #88b6ef;
+    /* Colours: Removed unused colors from casper and added new sets */
+    --blue: #66AEF3;
     --green: #a4d037;
-    --purple: #BE80FF;
-    --yellow: #fecd35;
+    --quote: #382f42;
     --red: #FF404B;
     --darkgrey: #15171A;
     --midgrey: #b3c9d4;
     --lightgrey: #c5d2d9;
     --whitegrey: #e5eff5;
-    --pink: #fa3a57;
-    --brown: #a3821a;
     --darkmode: color(var(--darkgrey) l(+2%));
+    --consolebg: #282828 ;
+    --consoletxt: #fbf1c7;
 }
 
 /* Reset
@@ -298,7 +297,7 @@ body {
 
 ::selection {
     text-shadow: none;
-    background: color(var(--blue) lightness(+30%));
+    background: color(var(--blue) lightness(+5%));
 }
 
 hr {
@@ -416,7 +415,7 @@ blockquote cite a {
 }
 
 a {
-    color: color(var(--blue) l(-5%));
+    color: color(var(--blue));
     text-decoration: none;
 }
 
