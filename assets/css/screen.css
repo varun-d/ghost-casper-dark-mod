@@ -693,7 +693,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-excerpt {
     max-width: 56em;
-    color: var(--midgrey);
+    color: var(--lightgrey);
     font-family: 'Merriweather', Georgia, serif;
 }
 
@@ -989,9 +989,9 @@ make sure this only happens on large viewports / desktop-ish devices.
     margin: 20px 0 0;
     color: var(--midgrey);
     font-family: 'Merriweather', Georgia, serif;
-    font-size: 2.3rem;
-    line-height: 1.4em;
-    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 1.6em;
+    font-weight: 100;
 }
 
 .date-divider {
@@ -1041,8 +1041,8 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 @media (max-width: 500px) {
     .post-full-custom-excerpt {
-        font-size: 1.9rem;
-        line-height: 1.5em;
+        font-size: 1.8rem;
+        line-height: 1.6em;
     }
 }
 
@@ -1069,7 +1069,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content blockquote,
 .post-full-comments,
 .footnotes {
-    margin: 0 0 1.5em 0;
+    margin: 0 0 2em 0;
     min-width: 100%;
 }
 @media (max-width: 500px) {
@@ -2864,7 +2864,7 @@ Usage (In Ghost editor):
 /* ---------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
     body {
-        color: rgba(255, 255, 255, 0.75);
+        color: var(--lightgrey);
         background: var(--darkmode);
     }
 
@@ -2906,7 +2906,7 @@ Usage (In Ghost editor):
     }
 
     .post-card-excerpt {
-        color: color(var(--midgrey) l(+10%));
+        color: color(var(--lightgrey) l(+10%));
     }
 
     .author-avatar,
@@ -2929,7 +2929,7 @@ Usage (In Ghost editor):
     }
 
     .post-full-custom-excerpt {
-        color: color(var(--midgrey) l(+10%));
+        color: color(var(--lightgrey) l(+10%));
     }
 
     .post-full-image {

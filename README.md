@@ -1,5 +1,6 @@
 # Custom Casper
-This is a modified casper theme for personal use. Sharing so others can use if needed.
+This is a modified casper theme for personal use. Sharing so others can use if needed and practice Ghost theme editing.
+Honestly, the original casper theme needs some work in making colors consistant. Some places use variables; some have direct values.
 
 # Live Editing
 This method worked for me as I just need to refresh the page to see changes.
@@ -11,6 +12,10 @@ Install ghost locally using Ghost Cli
 ```bash
 # ghost install local
 ```
+
+## Step 2: Edit casper theme
+
+In your content/themes folder you will have a fresh casper theme. Navigate there and follow official Ghost instructions.
 
 # Casper
 
